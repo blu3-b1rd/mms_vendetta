@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="10dp" >
+
+        <!-- Band Text 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="45sp" />
+        -->
+        <!-- Band Image -->
+        <ImageView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:contentDescription="@null"
+        	android:src="@drawable/img_logo_large_inverse"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/mms_by"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <include android:id="@+id/register_form_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/form_register" />
+        
+        <ProgressBar android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+        
+    </RelativeLayout>
+
+    <Button android:id="@+id/button_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/form_register"
+        android:onClick="onRegisterClicked"
+        android:layout_marginBottom="5dp" />
+
+</LinearLayout>

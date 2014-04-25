@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- MMS Strings -->
+    <string name="app_name">Vendetta</string>
+    <string name="mms_by">por MMS</string>
+    <string name="mms_account">Cuenta de MMS</string>
+    <string name="mms_register">Registro en MMS</string>
+    
+    <string name="facebook_app_id">171116606398250</string>
+    
+    <string-array name="fb_read_permissions">
+        <item>email</item>
+    </string-array>
+    
+    <string name="menu_logout">Cerrar Sesión</string>
+    <string name="menu_refresh">Refrescar</string>
+    
+    <!-- Strings for Splash -->
+    <string name="login">Iniciar Sesión</string>
+    
+    <!-- Strings for Discography -->
+    <string name="empty_albums">No hay albums</string>
+    <string name="released_on">Lanzado en</string>
+    <string name="by">por</string>
+    
+    <!-- Strings for Gallery -->
+    <string name="gallery_title">Galería</string>
+    <string name="set_wallpaper">Elegir como Wallpaper</string>
+    
+    <!-- Strings for News -->
+    <string name="news_title">Noticias</string>
+    <string name="empty_news">No hay noticias</string>
+    
+    <!-- Strings for Events -->
+    <string name="events_title">Eventos</string>
+    <string name="empty_concerts">No hay conciertos próximamente</string>
+    
+    <!-- Strings for Discography -->
+    <string name="discography_title">Discografía</string>
+    <string name="demo_track">(Demo)</string>
+    
+    <!-- Strings for Profile -->
+    <string name="greeting">Hi there, %s!</string>
+    <string name="rate_how_to">How to eaen it?</string>
+    <string name="rate_benefits">Benefits?</string>
+    
+    <!-- Strings for Forms -->
+    <string name="form_name">Nombre: </string>
+    <string name="form_username">Nombre de Usuario: </string>
+    <string name="form_email">Correo: </string>
+    <string name="form_register">Registrar</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="form_general">General</string>
+    <string name="hint_name">Nombre</string>
+    <string name="form_account">Cuenta</string>
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="hint_confirm_password">Confirma Contraseña</string>
+    
+    <!-- Strings for Errors -->
+    <string name="error_google_plus">Falló la conexión con Google+</string>
+    <string name="error_verify_data">Verifica tu información</string>
+    <string name="error_invalid_date">Selecciona una fecha válida</string>
+    <string name="error_wrong_cookie">Ingresa de nuevo. Tu sesión expiró</string>
+    <string name="error_connection_failed">Error de Conexión</string>
+    <string name="error_demo_failed">Error cargando la canción</string>
+    
+    <!-- Strings for Notices -->
+    <string name="notice_register_successful">Registro exitoso</string>
+    
+</resources>

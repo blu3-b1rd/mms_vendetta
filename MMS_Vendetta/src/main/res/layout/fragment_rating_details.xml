@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:paddingTop="20dip"
+    android:layout_marginBottom="20dip"
+    android:paddingBottom="20dip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    	android:background="@drawable/bg_news_dialog"
+    	android:paddingBottom="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fans"
+                android:contentDescription="@null" />
+            
+            <FrameLayout 
+                android:layout_width="match_parent"
+                android:layout_height="150dip"
+                android:background="@drawable/gradient_layer"/>
+            
+            <TextView android:id="@+id/rating_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="25sp"
+                android:layout_alignParentBottom="true"
+                android:textStyle="bold"
+                android:textColor="#AAFFFFFF"/>
+        </RelativeLayout>
+        
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rate_how_to"
+            android:textColor="#DDFFFFFF"
+            android:padding="3dp"
+            android:textSize="15sp"/>
+        
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#AAFFFFFF"
+            android:paddingLeft="10dp"/>
+        
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rate_benefits"
+            android:textColor="#DDFFFFFF"
+            android:padding="3dp"
+            android:textSize="15sp"/>
+        
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#AAFFFFFF"
+            android:paddingLeft="10dp"/>
+        
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_dark">#ff0099cc</color>
+    <color name="blue_light">#ff00ddff</color>
+    <color name="blue_light_faded">#2200ddff</color>
+    
+    <color name="ab_mms_bg">#aadae6</color>
+</resources>

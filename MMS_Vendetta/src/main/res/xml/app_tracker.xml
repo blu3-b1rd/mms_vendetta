@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="TypographyDashes">
+    
+    <string name="ga_trackingId">UA-45452806-1</string>
+
+    <!--Enable automatic activity tracking-->
+	<bool name="ga_autoActivityTracking">true</bool>
+	<!--Enable automatic exception tracking-->
+	<bool name="ga_reportUncaughtExceptions">true</bool>
+    
+    <screenName name="com.mms.activity.SplashActivity">
+        Splash View</screenName>
+	<screenName name="com.mms.activity.NewsActivity">
+	    News View</screenName>
+	<screenName name="com.mms.activity.RegisterActivity">
+	    Register View</screenName>
+	<screenName name="com.mms.activity.MeSectionActivity">
+	    Me View</screenName>
+	<screenName name="com.mms.activity.DiscographyActivity">
+	    Discography View</screenName>
+	<screenName name="com.mms.activity.AlbumActivity">
+	    Album View</screenName>
+	<screenName name="com.mms.activity.GallerySectionActivity">
+	    Gallery View</screenName>
+	  
+</resources>

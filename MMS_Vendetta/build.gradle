@@ -19,6 +19,9 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:19.+'
+    compile 'com.android.support:appcompat-v7:+'
+    compile 'com.google.android.gms:play-services:4.3.+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':libraries:facebook')
+    compile files('libs/universal-image-loader-1.9.1-with-sources.jar')
 }

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MMS_Vendetta/MMS_Vendetta.iml" filepath="$PROJECT_DIR$/MMS_Vendetta/MMS_Vendetta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/facebook/facebook.iml" filepath="$PROJECT_DIR$/libraries/facebook/facebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/mms_vendetta.iml" filepath="$PROJECT_DIR$/mms_vendetta.iml" />
     </modules>
   </component>

@@ -1,1 +1,1 @@
-include ':MMS_Vendetta'
+include ':MMS_Vendetta', ':libraries:facebook'

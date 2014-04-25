@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mms="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:id="@+id/layout_me" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/selector_profile_section">
+        
+        <ImageView android:id="@+id/img_display_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img_default_display_img"
+            android:contentDescription="@null"/>
+        
+        <com.mms.view.TypeFacedTextView android:id="@+id/lbl_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img_display_img"
+            android:layout_margin="10dp"
+            android:singleLine="true"
+            android:gravity="center_horizontal"
+            android:textSize="22sp"
+            mms:typeface="fonts/Roboto-LightItalic.ttf"/>
+        
+	</RelativeLayout>
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
